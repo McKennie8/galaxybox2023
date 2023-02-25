@@ -1,0 +1,59 @@
+<h1>{{ section.settings.heading }}</h1>
+
+{% for block in section.blocks %}
+  <h2>{{ block.settings.heading2 }}</h2>
+  <h3>{{ block.settings.question }}</h3>
+  <p>{{ block.settings.answer }}</p>
+{% endfor %}
+
+{% schema %}
+{
+  "name": "Customer Questions",
+  "settings": [
+    {
+      "type": "text",
+      "label": "heading for faq",
+      "id": "heading"
+    },
+    {
+      "type": "text",
+      "label": "question for faq",
+      "id": "question"
+    },
+    {
+      "type": "textarea",
+      "label": "answer for faq",
+      "id": "answer"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "QA",
+      "name": "Question/Answer",
+      "settings": [
+        {
+          "type": "text",
+          "label": "Customer Questions",
+          "id": "question"
+        },
+        {
+          "type": "richtext",
+          "label": "answer for faq",
+          "id": "answer"
+        }
+      ]
+    },
+    {
+      "type": "Heading",
+      "name": "FAQ Group Heading",
+      "settings": [
+        {
+          "type": "text",
+          "label": "heading",
+          "id": "heading2"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

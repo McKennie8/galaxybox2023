@@ -1,0 +1,30 @@
+<h1>{{section.settings.heading2}}</h1>
+
+<h3>{{section.settings.questions2}}</h3>
+
+<p>{{section.settings.answers2}}</p>
+
+
+{% schema %}
+    {
+        "name":"customer questions2",
+        "settings":[
+            {
+                "type":"text",
+                "label":"heading2 for faq",
+                "id":"heading2"
+            },
+             {
+                "type":"text",
+                "label":"customer questions2",
+                "id":"questions2"
+            },
+             {
+                "type":"textarea",
+                "label":"answers2 for faq",
+                "id":"answers2"
+            }
+        ]
+    }
+{% endschema %}
+
