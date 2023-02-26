@@ -417,6 +417,77 @@
           "d0cd3af6-dfd2-49e4-ad31-4fc878ddbfae"
         ],
         "settings": {}
+      },
+      "05c531f1-7872-4065-a4fc-f7f5c707d4ba": {
+        "type": "testimonial-slider",
+        "blocks": {
+          "f4bf83df-c0e7-44ac-a290-50bafd579d86": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Perfect to lay under relaxing and calming the mind. I use it all night. So amazing and bright.<\/p>",
+              "name": "Kelly S.",
+              "image": "shopify:\/\/shop_images\/kelly.jpg"
+            }
+          },
+          "6f7305c6-df36-4841-9895-325d69610247": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Really nice for mood lighting, I use it every night and am planning on gifting one to someone I like it so much!<\/p>",
+              "name": "Penelope A.",
+              "image": "shopify:\/\/shop_images\/user05.jpg"
+            }
+          },
+          "68444b5a-2141-4f75-ab00-644b0c24a152": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>I love how the galaxy box creates a calming and soothing atmosphere that helps me relax and fall asleep faster.<\/p>",
+              "name": "Judy H.",
+              "image": "shopify:\/\/shop_images\/user07.jpg"
+            }
+          },
+          "d5f85219-9a81-4596-8550-9df8c0427f32": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Mesmerizing to the point of awesomeness.<\/p>",
+              "name": "Julie S.",
+              "image": "shopify:\/\/shop_images\/user02.jpg"
+            }
+          },
+          "066a9893-425f-47c6-ab13-578559cba5ac": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>Whether I'm hosting a party or having a romantic night in, the star projector is a great way to set the mood and create a memorable experience.<\/p>",
+              "name": "Jason J.",
+              "image": "shopify:\/\/shop_images\/user04.jpg"
+            }
+          },
+          "de8a949a-b37f-4b60-be62-523a53352d8c": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>I swear the star projector is like a lullaby machine, I'm out like a light in no time!<\/p>",
+              "name": "Michelle P.",
+              "image": "shopify:\/\/shop_images\/user01.jpg"
+            }
+          },
+          "e29edf35-332a-4d1e-b684-c363c980399f": {
+            "type": "testimonial",
+            "settings": {
+              "text": "<p>I got the star projector as a gift and I'm pretty sure it's the best thing that's ever happened to me.<\/p>",
+              "name": "Lisa S.",
+              "image": "shopify:\/\/shop_images\/user08.jpg"
+            }
+          }
+        },
+        "block_order": [
+          "f4bf83df-c0e7-44ac-a290-50bafd579d86",
+          "6f7305c6-df36-4841-9895-325d69610247",
+          "68444b5a-2141-4f75-ab00-644b0c24a152",
+          "d5f85219-9a81-4596-8550-9df8c0427f32",
+          "066a9893-425f-47c6-ab13-578559cba5ac",
+          "de8a949a-b37f-4b60-be62-523a53352d8c",
+          "e29edf35-332a-4d1e-b684-c363c980399f"
+        ],
+        "settings": {}
       }
     },
     "content_for_index": [
@@ -424,7 +495,7 @@
       "163338657950ea4110",
       "163338706875de89d0",
       "feature-row",
-      "quotes",
+      "05c531f1-7872-4065-a4fc-f7f5c707d4ba",
       "image-bar"
     ]
   },
